@@ -24,6 +24,7 @@
 
 }
 
+
 * {
     box-sizing: border-box;
 }
@@ -101,7 +102,6 @@ header {
 .bg-green:hover {
     background-color: var(--bs-green-hover);
 }
-
 
 /*****w3schools-logo*****/
 .w3schools-logo {
@@ -356,6 +356,7 @@ header {
     width: 100%;
     padding-bottom: 50px;
     display: none;
+    z-index: 30;
 }
 
 @media all and (min-width:850px) {
@@ -446,6 +447,7 @@ header {
     width: 100%;
     text-align: left;
     padding: 15px;
+    z-index: 30;
 }
 
 .nested-navigation-container_content_Mobile h1 {
@@ -609,6 +611,7 @@ svg {
 .section_left p {
     font-size: 22px;
     font-weight: 550;
+    text-align: center;
 }
 
 .section_left a {
@@ -953,16 +956,36 @@ svg {
 }
 
 .w3schools_space_image_howitwork {
-    padding: 50px;
+    padding: 10px;
+    margin-top: 10px;
+}
+@media all and (min-width:600px) {
+    .w3schools_space_image_howitwork {
+        padding: 50px;
+    }
 }
 
 .getStartedNowBtn {
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;
     padding: 7px 30px;
     max-width: 250px;
     border-radius: 30px;
     text-decoration: none;
+    margin-top: 20px;
+}
+@media all and (min-width:600px) {
+    .w3schools_space_image_howitwork {
+        padding: 50px;
+    }
+    .getStartedNowBtn {
+        font-size: 25px;
+        width: 100%;
+        padding: 7px 30px;
+        max-width: 250px;
+        border-radius: 30px;
+        text-decoration: none;
+    }
 }
 
 /**********my learning**********/
